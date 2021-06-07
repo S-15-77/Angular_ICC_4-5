@@ -1,0 +1,33 @@
+<div class="row">
+    <div class="col-md-12" style="background-color: royalblue;">
+      <div class="sty1">
+        <h3>CWC STANDINGS</h3>
+      </div>
+    </div>
+  </div>
+  <br>
+  <table border="2" align="center">
+    <thead>
+      <th>Pos</th>
+      <th>Team</th>
+      <th>played</th>
+      <th>Won</th>
+      <th>Lost</th>
+      <th>N/R</th>
+      <th>Tied</th>
+      <th>Net RR</th>
+      <th>points</th>
+    </thead>
+    <tbody *ngFor="let s of standing">
+      <td>{{s.pos}}</td>
+      <td>{{s.team}}</td>
+      <td>{{s.played}}</td>
+      <td>{{s.won}}</td>
+      <td>{{s.lost}}</td>
+      <td>{{s.nr}}</td>
+      <td>{{s.tied}}</td>
+      <td>{{s.net}}</td>
+      <td>{{s.points}}</td>
+    </tbody>
+  </table>
+  <hr/>

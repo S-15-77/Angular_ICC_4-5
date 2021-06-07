@@ -1,0 +1,64 @@
+<app-header></app-header>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a  class="nav-link active" aria-current="page" routerLink="home" routerLinkActive = 'active' >
+          Home
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" routerLink = 'schedule' routerLinkActive = 'active'>
+          Matches
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" routerLink = 'standing' routerLinkActive = 'active'>
+          Standings
+        </a>
+      </li>
+      <li class="nav-item dropdown" >
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b>Stats CWC</b>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+            <a class="dropdown-item" routerLink="stat_cur" routerLinkActive = 'active' style="background-color: #8295a5; ">CWC19 Stats</a>
+            
+            <a class="dropdown-item" routerLink="stat_all" routerLinkActive = 'active'style="background-color: #8295a5; ">CWC All-Time Stats</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown" >
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <b>More</b>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" >
+            <a class="dropdown-item" href="https://www.youtube.com/user/CricketICC" style="background-color: #8295a5; ">ICC-Youtube</a>
+            <a class="dropdown-item" href="https://twitter.com/ICC"style="background-color: #8295a5; ">ICC-Twitter</a>
+            <a class="dropdown-item" href="#"style="background-color: #8295a5; ">Donation</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" routerLink = 'fantacy' routerLinkActive = 'active'>
+          Fantacy
+        </a>
+    </ul>
+    <div class="search">    
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search for player/team" aria-label="Search">
+        <button type="button" class= "content" class="btn btn-primary" data-bs-toggle="tooltip" data-bs-placement="top" title="Click to Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16" style="color: rgba(217, 255, 1, 0.534); background-color:#0074D9">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<br>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>

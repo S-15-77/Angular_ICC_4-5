@@ -1,0 +1,17 @@
+<table border="2" align="center">
+    <thead>
+        <th>Date</th>
+        <th>Match_No</th>
+        <th>Team1</th>
+        <th>Team2</th>
+        <th>Result</th>
+        <th>Venue</th>
+    </thead>
+    <tbody *ngFor="let sc of sch">
+      <td>{{sc.date}}</td>
+      <td>{{sc.matno}}</td>
+      <td>{{sc.t1}}</td>
+      <td>{{sc.t2}}</td>
+      <td>{{sc.res}}</td>
+      <td>{{sc.venue}}</td>
+    </tbody>

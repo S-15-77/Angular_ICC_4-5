@@ -1,0 +1,108 @@
+/* You can add global styles to this file, and also import other style files */
+    
+.content1{
+    padding: 15px;
+    font-size: 18px;
+    background: #0074D9;
+    margin-bottom: 15px;
+    position: relative;
+    left: 10px;
+    
+}
+.content5{
+    padding: 15px;
+    font-size: 18px;
+    background: #0074D9;
+    margin-bottom: 15px;
+    position: relative;
+    left: 10px;
+    
+}
+.content2{
+    padding: 15px;
+    font-size: 18px;
+    background: #0074D9;
+    margin-bottom: 15px;
+    position: relative;
+    left: 15px;
+    
+}
+.content3{
+    padding: 15px;
+    font-size: 18px;
+    background: #0074D9;
+    margin-bottom: 15px;
+    position: relative;
+    left: 50px;
+}
+.content4{
+    padding: 15px;
+    font-size: 18px;
+    background: #0074D9;
+    margin-bottom: 15px;
+    position: relative;
+    left: 50px;
+}
+.content.bg-alt{
+    background: #03e8f8;
+}
+.demo-content{
+    padding: 15px;
+    font-size: 18px;
+    background: #01dbf3;
+    margin-bottom: 15px;
+}
+.demo-content.bg-alt{
+    background: #055cf1;
+}
+
+/* styling navlist */
+#navlist {
+    background-color: #0074D9;
+    position: absolute;
+    width: 100%;
+}
+     
+/* styling navlist anchor element */
+#navlist a {
+    float:left;
+    display: block;
+    color: #09f7f7;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.dropdown-menu :hover{
+    background-color: rgb(218, 27, 27);
+    color: black;
+}
+ 
+
+
+/* hover effect of navlist anchor element */
+#navlist a:hover {
+    background-color: rgb(255, 1, 1);
+    color: black;
+}
+     
+/* styling search bar */
+.search input[type=text]{
+    width:300px;
+    height:25px;
+    border-radius:25px;
+    border: none;
+}
+     
+.search{
+    float:right;
+    margin:7px;
+}
+     
+
+body{
+    background-image: url('/assets/img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

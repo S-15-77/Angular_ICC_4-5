@@ -1,0 +1,152 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="sty1">
+      <h3>
+        Most Runs
+      </h3>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
+    <table border="2" align="center">
+      <thead>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Team</th>
+        <th>Runs</th>
+      </thead>
+      <tbody *ngFor="let i of mostrun">
+        <td>{{i.rank}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.team}}</td>
+        <td>{{i.runs}}</td>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-md-5">
+    <img src="assets/img/rh.jpeg" width="300px" height="150px">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+
+<hr/>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="sty1">
+      <h3>
+        Most Wicket
+      </h3>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
+    <table border="2" align="center">
+      <thead>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Team</th>
+        <th>Wickets</th>
+      </thead>
+      <tbody *ngFor="let w of mostwicket">
+        <td>{{w.rank}}</td>
+        <td>{{w.name}}</td>
+        <td>{{w.team}}</td>
+        <td>{{w.wicket}}</td>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-md-5">
+    <img src="assets/img/str.jpeg" width="300px" height="150px">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+
+<hr/>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="sty1">
+      <h3>
+        HIGHEST SCORE (INNINGS)
+      </h3>
+    </div>
+  </div>
+</div>
+
+<br>
+
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
+    <table border="2" align="center">
+      <thead>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Team</th>
+        <th>Runs</th>
+      </thead>
+      <tbody *ngFor="let i of Highscore">
+        <td>{{i.rank}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.team}}</td>
+        <td>{{i.runs}}</td>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-md-5">
+    <img src="assets/img/dw.jpeg" width="300px" height="150px">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<hr/>
+
+<div class="row">
+  <div class="col-md-12">
+    <div class="sty1">
+      <h3>
+        BEST BOWLING FIGURES
+      </h3>
+    </div>
+  </div>
+</div>
+
+<br>
+
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
+    <table border="2" align="center">
+      <thead>
+        <th>Rank</th>
+        <th>Name</th>
+        <th>Team</th>
+        <th>Bowling Figures</th>
+      </thead>
+      <tbody *ngFor="let w of bestbowling">
+        <td>{{w.rank}}</td>
+        <td>{{w.name}}</td>
+        <td>{{w.team}}</td>
+        <td>{{w.fig}}</td>
+      </tbody>
+    </table>
+  </div>
+  <div class="col-md-5">
+    <img src="assets/img/sa.jpg" width="300px" height="150px">
+  </div>
+  <div class="col-md-1"></div>
+</div>
+<hr/>
+
